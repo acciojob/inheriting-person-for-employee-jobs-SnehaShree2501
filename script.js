@@ -11,6 +11,7 @@ function Employee(name, age, jobTitle) {
     this.jobTitle=jobTitle;
 }
 //super.Person.greet();
+//need to understand the concept.
 Employee.prototype = Object.create(Person.prototype);
 Employee.prototype.constructor = Employee;
 
